@@ -1,0 +1,26 @@
+.detail {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0.1em;
+    text-align: center;
+
+}
+
+.img img {
+    width: 30em;
+    height: 30em;
+    object-fit: cover;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.img h1 {
+    text-align: left;
+    color: azure;
+}
+
+.box {
+    color: antiquewhite;
+}

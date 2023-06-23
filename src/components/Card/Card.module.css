@@ -1,0 +1,21 @@
+.card {
+    background-color: rgb(160, 201, 254);
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 4px;
+    width: 300px;
+    font-size: 0.5em;
+}
+
+.card button{
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 40px;
+    height: 35px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
