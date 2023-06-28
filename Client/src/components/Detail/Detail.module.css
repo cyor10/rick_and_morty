@@ -13,7 +13,8 @@
     width: 30em;
     height: 30em;
     object-fit: cover;
-    box-shadow: 4px 4px rgba(0, 0, 0, 0.25)
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
 
 .img h1 {
