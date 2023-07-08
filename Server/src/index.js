@@ -1,3 +1,4 @@
+/* //! Código de webserver (deprecado)
 var fs = require("fs");
 var http = require("http")
 const data = require("./utils/data.js");
@@ -21,7 +22,7 @@ const PORT = 3001;
         });
         return
     }
-}) */
+})
 
 const server = http.createServer((req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -48,4 +49,12 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, () => {
     console.log(`Servidor escuchando en ${PORT}/`);
-});
+}); */
+
+const server = require('./app.js')
+
+const PORT = 3001;
+
+server.listen(PORT, () => {
+    console.log(`Server raised in port: ${PORT}`)
+})
