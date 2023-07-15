@@ -1,4 +1,4 @@
-const users = require('../utils/users.js');
+/* const users = require('../utils/users.js');
 
 const login = (req, res) => {
     const { email, password } = req.query;
@@ -16,4 +16,4 @@ const login = (req, res) => {
     })
 };
 
-module.exports = { login }
+module.exports = { login } */

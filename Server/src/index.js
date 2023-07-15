@@ -50,11 +50,14 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
     console.log(`Servidor escuchando en ${PORT}/`);
 }); */
-
+//vamos a tener al puerto escuchando y la conexión a la base de datos
 const server = require('./app.js')
 
 const PORT = 3001;
+const { conn } = require('./DB_connection.js')
 
-server.listen(PORT, () => {
-    console.log(`Server raised in port: ${PORT}`)
+conn.sync({ force: true }).then(() => {
+    server.listen(PORT, () => {
+        console.log(`Server raised in port: ${PORT}`)
+    })
 })
